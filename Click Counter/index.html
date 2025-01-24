@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Click Counter</title>
+</head>
+<body>
+    <h1>Counter</h1>
+    <input type="number" value="0" id="count">
+    <button onclick="count()">Click Me</button>
+    <button onclick="reset()">Reset</button>
+
+<script>
+var x=0;
+function count() {
+x=x+1;
+document.getElementById('count').value=x;
+}
+function reset() {
+x=0;
+document.getElementById('count').value=x;
+}
+</script>
+
+</body>
+</html>
