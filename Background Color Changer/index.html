@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Background Color Changer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <select onchange="BgColor(this.value)">
+            <option value="">--Select--</option>
+            <option value="Red">Red</option>
+            <option value="Green">Green</option>
+            <option value="Blue">Blue</option>
+            <option value="Orange">Orange</option>
+            <option value="Aqua">Aqua</option>
+        </select>
+    </div>
+</body>
+<script>
+function BgColor(value) {
+document.body.style.backgroundColor=value;
+}
+</script>
+</html>
