@@ -1,0 +1,18 @@
+h2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: darkred;
+    font-weight: 600;
+    color: #fff;
+}
+p {
+    column-count: 3;
+    column-gap: 50px;
+    margin: 40px;
+    text-align: justify;
+    column-rule: 5px red dashed;
+    /*column-rule-width: 10px;
+    column-rule-style: solid;
+    column-rule-color: aqua;*/
+}
