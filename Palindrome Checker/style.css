@@ -1,0 +1,52 @@
+*, *:before, *:after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #66ffcc;
+}
+.container {
+    width: 30%;
+    min-width: 450px;
+    background-color: #ffffff;
+    padding: 50px 30px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    border-radius: 10px;
+    box-shadow: 0 20px 25px rgba(0,0,0,0.18);
+}
+.container * {
+    font-family: monospace;
+    outline: none;
+    font-size: 22px;
+}
+input {
+    width: 70%;
+    border: none;
+    border: 2px solid black;
+    padding: 10px 5px;
+    font-weight: 400;
+}
+input:focus {
+    border: 3px solid #6600cc;
+}
+button {
+    width: 25%;
+    height: 40px;
+    float: right;
+    padding: 10px 20px;
+    background-color: #6600cc;
+    border: none;
+    border-radius: 3px;
+    color: #fff;
+    font-weight: 400;
+}
+p {
+    margin-top: 30px;
+    text-align: center;
+    color: #6600cc;
+    font-family: monospace;
+}
