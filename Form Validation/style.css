@@ -1,0 +1,61 @@
+body {
+    background: url(bg-img.webp) no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+}
+section {
+    display: flex;
+}
+h1 {
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 35px;
+    color: #fff;
+    text-transform: uppercase;
+}
+.form {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border: 2px solid #fff;
+    background: rgba(
+        255, 255, 255, 0.07
+    );
+    width: 400px;
+    height: 500px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 0 20px;
+}
+input {
+    margin-top: 20px;
+    padding: 3px;
+    height: 35px;
+    width: 330px;
+    font-size: 14px;
+    border-radius: 6px;
+    outline: none;
+    border: none;
+    position: relative;
+}
+input[type="submit"] {
+    font-weight: bold;
+    background: deepskyblue;
+    color: #fff;
+    letter-spacing: 2px;
+    height: 45px;
+    cursor: pointer;
+}
+p {
+    color: red;
+    font-family: sans-serif;
+    position: fixed;
+    top: 85px;
+    left: 35px;
+    font-size: 13px;
+    text-transform: capitalize;
+}
