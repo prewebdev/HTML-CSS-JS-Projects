@@ -1,0 +1,20 @@
+div {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    background: rgb(0, 70, 128);
+    transition: width 2s;
+}
+div:hover {
+    width: 300px;
+}
+.container {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    background: rgb(255, 0, 85);
+    transition: width 2s;
+}
+div:hover {
+    width: 300px;
+}
