@@ -1,0 +1,57 @@
+body {
+    min-width: 100vw;
+    min-height: 100vh;
+    background-color: black;
+}
+h1 {
+    color: white;
+    text-align: center;
+}
+form {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    margin-bottom: 40px;
+}
+img {
+    min-width: 100%;
+    display: block;
+    box-shadow: 0 0 3px 2px rgb(80, 80, 80);
+    transition: 0.34s ease-in-out;
+}
+img:hover {
+    transform: scale(1.04);
+}
+input {
+    font-size: 1.4rem;
+    border: none;
+    outline: none;
+    border-radius: 0.1em;
+}
+input:focus-within {
+    box-shadow: 0 0 3px 3px rgb(30, 156, 129);
+}
+button {
+    font-size: 1rem;
+    padding: 0.25em 0.73em;
+    border: none;
+    background-color: rgb(66, 151, 151);
+    color: white;
+    font-weight: bold;
+    border-radius: 3px;
+    box-shadow: 3px 3px 7px 0px rgb(105, 104, 104);
+    cursor: pointer;
+}
+button:active {
+    transform: translate(1px,1px);
+    box-shadow: 2px 2px 7px 0px rgb(105, 104, 104);
+}
+.image-container {
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(220px,0.4fr));
+    gap: 20px;
+    margin: 10px auto;
+    place-content: center;
+}
