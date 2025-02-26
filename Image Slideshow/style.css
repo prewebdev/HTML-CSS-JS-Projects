@@ -1,0 +1,25 @@
+.container {
+    display: flex;
+    max-width: 100%;
+    border: 3px solid gray;
+}
+.slider {
+    width: 25%;
+    height: 60vh;
+    background-color: red;
+    transition: all .9s ease-in-out;
+    overflow: hidden;
+    cursor: pointer;
+}
+.slider img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: all 1s ease-in-out;
+}
+.slider:hover {
+    width: 50%;
+}
+.slider:hover img {
+    transform: scale(1.1);
+}
