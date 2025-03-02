@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multi Step Form</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+</head>
+<body>
+    <div class="container">
+        <form id="Form1">
+            <h3>CREATE ACCOUNT</h3>
+            <input type="text" placeholder="Email" required>
+            <input type="password" placeholder="Password" required>
+            <input type="password" placeholder="Confirm Password" required>
+            <div class="btn-box">
+                <button type="button" id="Next1">Next</button>
+            </div>
+        </form>
+        <form id="Form2">
+            <h3>SOCIAL LINKS</h3>
+            <input type="text" placeholder="Medium">
+            <input type="text" placeholder="Github">
+            <input type="text" placeholder="Linkedin">
+            <div class="btn-box">
+                <button type="button" id="Back1">Back</button>
+                <button type="button" id="Next2">Next</button>
+            </div>
+        </form>
+        <form id="Form3">
+            <h3>PERSONAL INFO</h3>
+            <input type="text" placeholder="First Name" required>
+            <input type="text" placeholder="Last Name" required>
+            <input type="text" placeholder="Mobile No." required>
+            <div class="btn-box">
+                <button type="button" id="Back2">Back</button>
+                <button type="submit">Submit</button>
+            </div>
+        </form>
+        <div class="step-row">
+            <div id="progress"></div>
+            <div class="step-col"><small>Step 1</small></div>
+            <div class="step-col"><small>Step 2</small></div>
+            <div class="step-col"><small>Step 3</small></div>
+        </div>
+    </div>
+<script src="script.js"></script>    
+</body>
+</html>
