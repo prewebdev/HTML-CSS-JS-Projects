@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Starbucks Landing Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section>
+        <div class="circle"></div>
+        <header>
+            <a href="#" class="logo"><img src="starbucks-logo.png"></a>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Menu</a></li>
+                <li><a href="#">What's New</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </header>
+        <div class="content">
+            <div class="textBox">
+                <h2>It's not just Coffee<br>It's <span>Starbucks</span></h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi quisquam atque numquam. Voluptate consequatur numquam repudiandae nobis, laborum labore accusamus error nesciunt dignissimos in atque maiores quo voluptatem at aliquam.</p>
+                <a href="#">Learn More</a>
+                </div>
+            <div class="imgBox">
+                <img src="starbucks-menu-1.png" class="starbucks">
+            </div>
+        </div>
+        <ul class="thumb">
+            <li><img src="thumb-1.png" onclick="imgSlider('thumb-1.png');changeCircleColor('#017143')"></li>
+            <li><img src="thumb-2.png" onclick="imgSlider('thumb-2.png');changeCircleColor('#eb7495')"></li>
+            <li><img src="thumb-3.png" onclick="imgSlider('thumb-3.png');changeCircleColor('#d752b1')"></li>
+        </ul>
+        <ul class="sci">
+            <li><a href="#"><img src="facebook-logo.png"></a></li>
+            <li><a href="#"><img src="instagram-logo.png"></a></li>
+            <li><a href="#"><img src="twitter-logo.png"></a></li>
+        </ul>
+    </section>
+<script src="script.js"></script>
+</body>
+</html>
