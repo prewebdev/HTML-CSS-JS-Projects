@@ -138,10 +138,11 @@ body {
     pointer-events: none;
     transition: background 0.2s ease;
 }
-.bottom button .active {
+.bottom button.active {
     opacity: 1;
     pointer-events: auto;
 }
 .bottom button:hover {
     background: #0d8bd9;
+
 }
